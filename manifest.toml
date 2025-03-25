@@ -1,0 +1,48 @@
+# RuleProof Pinned External Dependencies Manifest
+# All entries must be pinned by commit or release tag with SHA-256 checksums.
+
+[rules.sigmahq]
+repo = "https://github.com/SigmaHQ/sigma"
+commit = "26a2c3810a4878caec599563f972a8c39587b154"
+license = "Detection Rule License 1.1 / CC BY-SA 4.0"
+
+[datasets.evtx_attack_samples]
+repo = "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES"
+commit = "4ceed2f4706daf601c212a8f91c113dd85349a2c"
+license = "GPL-3.0"
+mapping_file = "labels/evtx_attack_samples.csv"
+mapping_sha256 = "2d6c1f1b74736cb6661dcdff0a6002cb52a284b94d87ab52dcd3fa619d10a881"
+mapping_source_url = "https://docs.google.com/spreadsheets/d/12V5T9j6Fi3JSmMpAsMwovnWqRFKzzI9l2iXS5dEsnrs/edit?usp=sharing"
+mapping_source_resolved_from = "http://bit.ly/2WpzQM4"
+mapping_retrieval_date = "2026-11-04"
+mapping_attribution = "Author: Samir Bousseaden (sbousseaden/EVTX-ATTACK-SAMPLES, GPL-3.0)"
+
+[datasets.attack_stix]
+repo = "https://github.com/mitre-attack/attack-stix-data"
+commit = "v20.0"
+release_tag = "v20.0"
+version = "20.0"
+url = "https://github.com/mitre-attack/attack-stix-data/releases/download/v20.0/enterprise-attack.json"
+sha256 = "81113ba98afa2928f3dcff62022539f7ce30c315c32e14422f11ff95ce534352"
+crosswalk_file = "labels/attack_crosswalk.csv"
+crosswalk_sha256 = "77d24a20863a14da9f8d7ad858e0f6e41eaff571a17ab7e388d8b9f36c46cf67"
+license = "Apache-2.0"
+
+[engines.chainsaw]
+version = "v2.17.1"
+platform = "darwin-arm64"
+asset = "chainsaw_aarch64-apple-darwin.zip"
+url = "https://github.com/WithSecureOpenSource/chainsaw/releases/download/v2.17.1/chainsaw_aarch64-apple-darwin.zip"
+sha256 = "6212c27d067e68bfe2c9def4314cda486b70a3e34c7596d392ecbd9eafb2cfc4"
+binary_sha256 = "58d1eadf8164435e73d746db3bffe6170bc72e40a5fc7cce7b7957f0efa52b7b"
+sha256_verification_status = "first-seen, not independently published by upstream"
+license = "GPL-3.0"
+
+[engines.hayabusa]
+version = "v4.3.1"
+platform = "darwin-arm64"
+asset = "hayabusa-4.3.1-mac-aarch64.zip"
+url = "https://github.com/Yamato-Security/hayabusa/releases/download/v4.3.1/hayabusa-4.3.1-mac-aarch64.zip"
+sha256 = "cabffad28828ac2c1c8912356f4970f22941dedbd40fd13fe13ed6d7fa154cec"
+sha256_verification_status = "first-seen, not independently published by upstream"
+license = "UNVERIFIED (no license file in binary release asset)"
