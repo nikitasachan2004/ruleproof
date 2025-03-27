@@ -1,0 +1,19 @@
+[rules.sigmahq]
+repo = "https://github.com/SigmaHQ/sigma"
+commit = "26a2c3810a4878caec599563f972a8c39587b154"
+license = "CC BY-SA 4.0"
+
+[datasets.evtx_attack_samples]
+repo = "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES"
+commit = "4ceed2f4706daf601c212a8f91c113dd85349a2c"
+license = "GPL-3.0"
+mapping_url = "https://example.com/mapping.csv"
+
+[engines.chainsaw]
+version = "v2.17.1"
+platform = "darwin-arm64"
+asset = "chainsaw.zip"
+url = "https://example.com/chainsaw.zip"
+sha256 = "6212c27d067e68bfe2c9def4314cda486b70a3e34c7596d392ecbd9eafb2cfc4"
+sha256_verification_status = "test"
+license = "GPL-3.0"
