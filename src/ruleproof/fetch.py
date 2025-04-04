@@ -1,5 +1,3 @@
-# safe zip extraction with path traversal protection
-# ruleproof fetch module - initial draft
 """Fetch and verification pipeline for external rules, datasets, and engine binaries."""
 
 import hashlib
