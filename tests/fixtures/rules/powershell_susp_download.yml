@@ -1,0 +1,18 @@
+title: Suspicious PowerShell Download
+id: 8d31a854-204d-4ba6-848e-67011d19ff55
+status: test
+description: Detects suspicious PowerShell download cradle
+author: Detection Team
+date: 2020-05-10
+tags:
+    - attack.execution
+    - attack.t1059.001
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection:
+        Image|endswith: '\powershell.exe'
+        CommandLine|contains: 'DownloadString'
+    condition: selection
+level: medium
