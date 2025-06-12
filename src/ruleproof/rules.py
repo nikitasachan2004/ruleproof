@@ -1,3 +1,4 @@
+# status filtering for stable and test rules
 # attack tags extraction logic
 # rule parsing skeleton
 """Sigma detection rule loader and metadata parser."""
