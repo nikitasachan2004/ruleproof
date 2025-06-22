@@ -3,3 +3,7 @@
 ## 1. Ground Truth & ATT&CK Taxonomy
 - Technique-level tags vs procedure-level execution
 - Windows EVTX logging nuances
+
+## 2. Sigma Rule Ingestion Notes
+- Filtering out experimental/unsupported rules
+- Extracting canonical ATT&CK IDs
