@@ -1,0 +1,3 @@
+Tactic,Technique,ID,Procedure related detection traces
+Credential Access,OS Credential Dumping: LSASS Memory,T1003.001,Execution of mimikatz -> CA_Mimikatz.evtx
+Defense Evasion,Signed Binary Proxy Execution,T1218,Execute payload with pcalua -> pcalua.evtx
