@@ -1,6 +1,3 @@
-# ground truth policy enforcement
-# attack mapping csv parser
-# initial sample indexer
 """Attack log sample indexer and technique mapping loader."""
 
 import csv
