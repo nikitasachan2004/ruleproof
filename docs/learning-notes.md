@@ -7,3 +7,6 @@
 ## 2. Sigma Rule Ingestion Notes
 - Filtering out experimental/unsupported rules
 - Extracting canonical ATT&CK IDs
+
+## 3. EVTX Sample Labelling Policy
+- Only include samples with verified ground truth
