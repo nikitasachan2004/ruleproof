@@ -1,6 +1,3 @@
-# parse json output structure
-# subprocess argument list safe execution
-# chainsaw engine wrapper draft
 """Chainsaw engine implementation calling the native binary safely."""
 
 import json
