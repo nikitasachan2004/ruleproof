@@ -1,3 +1,4 @@
+# 4-class evaluation logic
 # initial classifier structure
 """Classification engine assigning rules into four evaluation categories."""
 
