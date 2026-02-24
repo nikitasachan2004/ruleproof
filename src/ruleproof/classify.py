@@ -1,3 +1,4 @@
+# technique matching policy: exact match vs family match
 # pair-level evaluability checks based on event IDs
 # 4-class evaluation logic
 # initial classifier structure
