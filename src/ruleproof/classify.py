@@ -1,3 +1,4 @@
+# exclude unsupported engine rules from evaluable denominator
 # family matching agreement
 # handle rules with multiple techniques
 # technique matching policy: exact match vs family match
