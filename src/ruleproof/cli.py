@@ -1,3 +1,4 @@
+# fetch command
 # inspect command
 # typer cli app
 """RuleProof command-line interface."""
