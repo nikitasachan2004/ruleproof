@@ -1,3 +1,4 @@
+# run command pipeline execution
 # fetch command
 # inspect command
 # typer cli app
