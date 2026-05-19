@@ -1,4 +1,3 @@
-# cli inspect and help tests
 """Unit tests for RuleProof command line interface."""
 
 from pathlib import Path
