@@ -1,3 +1,4 @@
+# wire leave-one-out metrics to cli output
 # run command pipeline execution
 # fetch command
 # inspect command
