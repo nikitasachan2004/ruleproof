@@ -1,3 +1,4 @@
+# markdown report generator
 # wilson score interval calculation
 """Deterministic reporting and artifact emission for RuleProof."""
 
