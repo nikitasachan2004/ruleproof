@@ -1,3 +1,4 @@
+# csv exports for classification and per-technique metrics
 # markdown report generator
 # wilson score interval calculation
 """Deterministic reporting and artifact emission for RuleProof."""
