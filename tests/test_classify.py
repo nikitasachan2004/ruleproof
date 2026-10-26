@@ -1,4 +1,3 @@
-# unit tests for classification rules
 """Unit tests for the four-class classification engine and matching policy."""
 
 from pathlib import Path

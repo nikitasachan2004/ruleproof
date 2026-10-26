@@ -1,12 +1,3 @@
-# crosswalk support for taxonomy drift
-# leave-one-out recall calculation
-# exclude unsupported engine rules from evaluable denominator
-# family matching agreement
-# handle rules with multiple techniques
-# technique matching policy: exact match vs family match
-# pair-level evaluability checks based on event IDs
-# 4-class evaluation logic
-# initial classifier structure
 """Classification engine assigning rules into four evaluation categories."""
 
 import logging
