@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        # Pin v4.2.2 (commit SHA: 11bd71901bbe5b1630ceea73d27597364c9af683)
+        uses: actions/checkout@v4.2.2
+
+      - name: Install uv
+        # Pin v5.1.0 (commit SHA: f94e3d47cf7a52e6981cf5d27299a9b13998f8e8)
+        uses: astral-sh/setup-uv@v5.1.0
+        with:
+          enable-cache: true
+          version: "0.5.11"
+
+      - name: Set up Python 3.12
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        run: uv sync --all-groups
+
+      - name: Lint with Ruff
+        run: uv run ruff check .
+
+      - name: Check formatting with Ruff
+        run: uv run ruff format --check .
+
+      - name: Type check with Mypy
+        run: uv run mypy src tests
+        if: hashFiles('src/**/*.py') != ''
+
+      - name: Run unit tests on fixtures
+        run: uv run pytest
+        if: hashFiles('tests/**/*.py') != ''
