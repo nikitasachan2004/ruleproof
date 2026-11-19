@@ -1,8 +1,3 @@
-# wire leave-one-out metrics to cli output
-# run command pipeline execution
-# fetch command
-# inspect command
-# typer cli app
 """RuleProof command-line interface."""
 
 import csv
