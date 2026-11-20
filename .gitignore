@@ -27,6 +27,7 @@ outputs/*
 !outputs/per_technique.csv
 !outputs/review_template.csv
 !outputs/review_draft.csv
+!outputs/review_agent_draft.csv
 
 # Binary logs
 *.evtx
@@ -35,3 +36,4 @@ outputs/*
 
 # OS metadata
 .DS_Store
+Thumbs.db

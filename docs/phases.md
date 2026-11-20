@@ -1,6 +1,6 @@
 # Phases and Acceptance Criteria
 
-## Phase 0: Scaffolding and Specifications (In Progress)
+## Phase 0: Scaffolding and Specifications (Complete)
 - **Objective**: Establish repo governance, architectural models, mathematical evaluation contracts, threat mitigations, and development toolchain.
 - **Deliverables**: All docs, `.agents/` workflows, `pyproject.toml`, `Makefile`, `.gitignore`, `.github/workflows/ci.yml`.
 - **Exit Gate**: Clean Ruff/mypy configuration check, zero pipeline code, and explicit user approval (`approved: Phase 0`).
